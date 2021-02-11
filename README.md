@@ -23,7 +23,7 @@ This script requires your computer to be on and able to execute basic commands
 
 <img src = "configurations/General.png" width = "600">
 
-####Please note that these settings work however there are other combinations that work, this is just an example.
+#### Please note that these settings work however there are other combinations that work, this is just an example.
 
 ## Python Requirements:
 + Link to visit [Python Homepage](https://www.python.org)

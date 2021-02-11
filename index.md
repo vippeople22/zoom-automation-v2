@@ -1,37 +1,72 @@
-## Welcome to GitHub Pages
+# Zoom-Automation 
+![GitHub issues](https://img.shields.io/github/issues-raw/vippeople22/zoom-quick-join)
+![GitHub all releases](https://img.shields.io/github/downloads/vippeople22/zoom-quick-join/total)
+![GitHub Repo stars](https://img.shields.io/github/stars/vippeople22/zoom-quick-join)
 
-You can use the [editor on GitHub](https://github.com/vippeople22/zoom-quick-join/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+An Automation script to very quickly join a zoom call
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This script requires your computer to be on and able to execute basic commands
 
-### Markdown
+[Download Zoom](https://zoom.us/download#client_4meeting)
+# Setting up zoom
+#### Audio settings
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<img src = "configurations/Audio.png" width = "600">
 
-```markdown
-Syntax highlighted code block
+#### Video settings
 
-# Header 1
-## Header 2
-### Header 3
+<img src = "configurations/Video.png" width = "600">
 
-- Bulleted
-- List
+#### General settings
 
-1. Numbered
-2. List
+<img src = "configurations/General.png" width = "600">
 
-**Bold** and _Italic_ and `Code` text
+#### Please note that these settings work however there are other combinations that work, this is just an example.
 
-[Link](url) and ![Image](src)
+## Python Requirements:
++ Link to visit [Python Homepage](https://www.python.org)
+  + On [Windows](https://www.microsoft.com/en-us/p/python-39/9p7qfqmjrfp7?activetab=pivot:overviewtab)
+  + Get [pip for Python](https://pip.pypa.io/en/stable/installing/)
+
+```commandline
+cd c:/directory/to/this/project
+pip install -r requirements.txt
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Requirements 
+- [x] Installed python version above 3.5
+- [x] Installed requirements.txt
+- [x] Latest Zoom Software (Signed in)
 
-### Jekyll Themes
+# How to run the program :
+* Use your favorite SVN or just go to the [Releases]() page to download the latest version
+  * Extract the release into a safe spot that you will remember where it is
+  
+* Open the .bat file in a text editor and edit the first line to the project's main directory
+* Open command prompt and cd to the directory
+  * Install the requirements.txt using `pip install -r requirements.txt`
+* Execute `python main.py`
+  * Yes I know the ux is *amazing* just follow the instructions and it will handle the rest
+  * You can leave this on overnight and the automation will handle the rest
+  
+## Feel free to open a pull request or issue with any bugs or suggestions
+## Upcoming:
+- [ ] Interface instead of CLI
+- [ ] Better code with fewer dependencies
+- [ ] Automation to create a task in the Task Scheduler for running the Script
+- [ ] Replacing the need to always run the file in the background
+- [ ] Multiple class support
+- [ ] A more user-friendly experience
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/vippeople22/zoom-quick-join/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+#### Have fun, 
+Leave a star if this helped you out in any way
 
-### Support or Contact
+## Frequent errors
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### Make sure to add trailing 0's for times before 10:00 AM Ex. 09:30.
+### Make sure you do not interfere with the code while it is executing, it will not work.
+
+Create an [issue here](https://github.com/vippeople22/zoom-quick-join/issues) and I'll add it here 
+
+Or make a [Pull Request](https://github.com/vippeople22/zoom-quick-join/pulls) and I'll update the code
+

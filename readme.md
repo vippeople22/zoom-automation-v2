@@ -8,7 +8,7 @@ An Automation script to very quickly join a zoom call
 This script requires your computer to be on and able to execute basic commands
 
 [Download Zoom](https://zoom.us/download#client_4meeting)
-#Setting up zoom
+# Setting up zoom
 #### Audio settings
 
 <img src = "configurations/Audio.png" width = "600">

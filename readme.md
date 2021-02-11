@@ -1,11 +1,11 @@
-# Zoom-Automation 
+# Zoom quick join
 ![GitHub issues](https://img.shields.io/github/issues-raw/vippeople22/zoom-quick-join)
 ![GitHub all releases](https://img.shields.io/github/downloads/vippeople22/zoom-quick-join/total)
 ![GitHub Repo stars](https://img.shields.io/github/stars/vippeople22/zoom-quick-join)
 
-An Automation script to very quickly join a zoom call
+An Automation script to *automatically* very quickly join a zoom call
 
-This script requires your computer to be on and able to execute basic commands
+This script requires your computer to be on and able to execute commands
 
 [Download Zoom](https://zoom.us/download#client_4meeting)
 # Setting up zoom

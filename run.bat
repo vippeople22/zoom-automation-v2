@@ -1,2 +1,4 @@
-cd C:\path\where\the\main\is\located
+cls
+cd C:\Location\Where\The\Main.py\Is\Located
 python main.py
+pause

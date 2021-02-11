@@ -9,9 +9,9 @@ This script requires your computer to be on and able to execute basic commands
 
 [Download Zoom](https://zoom.us/download#client_4meeting)
 
-#Setting up zoom
+# Setting up zoom
 
-####Audio settings
+#### Audio settings
 
 <img src = "configurations/Audio.png" width = "600">
 
@@ -60,10 +60,10 @@ pip install -r requirements.txt
 - [ ] Multiple class support
 - [ ] A more user-friendly experience
 
-####Have fun, 
+#### Have fun, 
 Leave a star if this helped you out in any way
 
-##Frequent errors
+## Frequent errors
 
 ### Make sure to add trailing 0's for times before 10:00 AM Ex. 09:30.
 ### Make sure you do not interfere with the code while it is executing, it will not work.

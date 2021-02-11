@@ -12,14 +12,15 @@ import json
 import colorama
 from colorama import Fore, Style
 
-print('Welcome to the automatic zoom join thing, this project is originally from Prashanth on Github')
-print('Check out his project https://github.com/prashanth-up/Zoom-Automation')
-print('But, I wanted a couple more features that he did not offer and just forked it and made my own version!')
-print('With that, enjoy')
-print(Fore.YELLOW + 'Please consider setting up the Class1.json file with your details to make setup easier :)')
+
 
 hashes = '#' * 90
 os.system('cls')
+print('Welcome to the automatic zoom join thing, this project is originally from Prashanth on Github')
+print('Check out his project https://github.com/prashanth-up/Zoom-Automation')
+print('and mine ;) https://github.com/vippeople22/zoom-quick-join')
+print('But, I wanted a couple more features that he did not offer and cloned it and made my own!')
+print(Fore.YELLOW + 'Please consider setting up the Class1.json file with your details to make setup easier :)')
 print(Fore.RED + 'Modify the main.py sleep values to better suit your systems performance')
 time.sleep(0.1)
 
@@ -37,7 +38,7 @@ if foo == 'y':
         LeaveTime = config["LeaveTime"]
 elif foo == 'n':
     # get values
-    print('\n', hashes)
+    print('\n\n' + hashes)
     print(Fore.YELLOW + 'This will have to be repeated every time upon startup')
     print(Style.RESET_ALL)
     print('Please modify the Class1.json file to have an easier time starting up')
@@ -64,12 +65,11 @@ def zoom():
     pyautogui.press('esc', interval=0.1)
     print('Opening zoom')
     time.sleep(0.3)
-
     pyautogui.press('win', interval=0.5)
     pyautogui.write('zoom')
-    time.sleep(2)
+    time.sleep(1)
     pyautogui.press('enter', interval=0.5)
-    time.sleep(4)
+    time.sleep(3)
     print('Joining')
     x, y = pyautogui.locateCenterOnScreen('joinIMG.png', confidence=0.8)
     pyautogui.click(x, y)
@@ -80,7 +80,7 @@ def zoom():
     print('... and password')
     pyautogui.write(Password)
     pyautogui.press('enter', interval=10)
-    print(f'Session has started and will continue until' + {LeaveTime} + '.')
+    print(f'Session has started and will continue until {LeaveTime}.')
 
     print('Hold (Ctrl+c) to exit the program and abort automatic leaving')
 

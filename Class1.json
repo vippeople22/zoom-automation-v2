@@ -1,0 +1,6 @@
+{
+  "MeetingID": "ID HERE",
+  "Password" : "PASSWORD",
+  "MeetTime" : "TIME EX: 09:30",
+  "LeaveTime" : "LEAVE TIME EX: 09:45"
+}

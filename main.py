@@ -1,7 +1,7 @@
-# Made By Prashanth Umapathy
+# Made By Prashanth-up
 # Modified heavily by vippeople22
-# https://github.com/vippeople22/redesigned-octo-happiness/
-# Specialises is Laziness
+# https://github.com/vippeople22/zoom-quick-join
+# Specialises in Laziness
 # Libraries imported
 import pyautogui
 import schedule

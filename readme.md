@@ -42,10 +42,10 @@ pip install -r requirements.txt
 * Use your favorite SVN or just go to the [Releases]() page to download the latest version
   * Extract the release into a safe spot that you will remember where it is
   
-* Open the .bat file in a text editor and edit the first line to the project's main directory
+* Install pip and Python ver > `3.5`
 * Open command prompt and cd to the directory
   * Install the requirements.txt using `pip install -r requirements.txt`
-* Execute `python main.py`
+* Open the .bat file and click allow when prompted by windows SmartScreen
   * Yes I know the ux is *amazing* just follow the instructions and it will handle the rest
   * You can leave this on overnight and the automation will handle the rest
   
@@ -59,14 +59,15 @@ pip install -r requirements.txt
 - [ ] A more user-friendly experience
 
 #### Have fun, 
-Leave a star if this helped you out in any way
+Leave a star * if this helped you out in any way
 
-## Frequent errors
+## Frequently asked questions / errors
 
-### Make sure to add trailing 0's for times before 10:00 AM Ex. 09:30.
-### Make sure you do not interfere with the code while it is executing, it will not work.
+* This project is 100% open source, if you can't trust allowing SmartScreen you can take a look at my code.
+* Make sure to add trailing 0's for times before 10:00 AM Ex. 09:30. Do this or the program will crash.
+* Make sure you do not interfere with the code while it is executing, it will not work.
 
 Create an [issue here](https://github.com/vippeople22/zoom-quick-join/issues) and I'll add it here 
 
-Or make a [Pull Request](https://github.com/vippeople22/zoom-quick-join/pulls) and I'll update the code
+Or make a [pull request](https://github.com/vippeople22/zoom-quick-join/pulls) and I'll update the code
 

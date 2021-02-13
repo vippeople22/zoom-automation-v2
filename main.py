@@ -18,7 +18,7 @@ hashes = '#' * 90
 os.system('cls')
 print('Welcome to the automatic zoom join thing, this project is originally from Prashanth on Github')
 print('Check out his project https://github.com/prashanth-up/Zoom-Automation')
-print('and mine ;) https://github.com/vippeople22/zoom-quick-join')
+print('and mine :) https://github.com/vippeople22/zoom-quick-join')
 print('But, I wanted a couple more features that he did not offer and cloned it and made my own!')
 print(Fore.YELLOW + 'Please consider setting up the Class1.json file with your details to make setup easier :)')
 print(Fore.RED + 'Modify the main.py sleep values to better suit your systems performance')

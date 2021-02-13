@@ -51,12 +51,11 @@ pip install -r requirements.txt
   
 ## Feel free to open a pull request or issue with any bugs or suggestions
 ## Upcoming:
-- [ ] Interface instead of CLI
+- [ ] Better UX
 - [ ] Better code with fewer dependencies
 - [ ] Automation to create a task in the Task Scheduler for running the Script
-- [ ] Replacing the need to always run the file in the background
+- [ ] A way for this to run in the background
 - [ ] Multiple class support
-- [ ] A more user-friendly experience
 
 #### Have fun, 
 Leave a star * if this helped you out in any way
@@ -65,7 +64,7 @@ Leave a star * if this helped you out in any way
 
 * This project is 100% open source, if you can't trust allowing SmartScreen you can take a look at my code.
 * Make sure to add trailing 0's for times before 10:00 AM Ex. 09:30. Do this or the program will crash.
-* Make sure you do not interfere with the code while it is executing, it will not work.
+* Make sure you do not interfere with the code by entering anything while it is executing, it will not work.
 
 Create an [issue here](https://github.com/vippeople22/zoom-quick-join/issues) and I'll add it here 
 

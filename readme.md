@@ -1,7 +1,7 @@
 # Zoom quick join
-![GitHub issues](https://img.shields.io/github/issues-raw/vippeople22/zoom-quick-join)
-![GitHub release (latest by date)](https://img.shields.io/github/downloads/vippeople22/zoom-quick-join/total)
-![GitHub Repo stars](https://img.shields.io/github/stars/vippeople22/zoom-quick-join)
+![GitHub issues](https://img.shields.io/github/issues-raw/vippeople22/zoom-automation-v2)
+![GitHub release (latest by date)](https://img.shields.io/github/downloads/vippeople22/zoom-automation-v2/total)
+![GitHub Repo stars](https://img.shields.io/github/stars/vippeople22/zoom-automation-v2)
 
 An Automation script to *automatically* very quickly join a zoom call
 

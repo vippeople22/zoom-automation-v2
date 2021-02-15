@@ -1,0 +1,6 @@
+{
+  "MeetingID": "Second Zoom meeting ID",
+  "Password" : "Meeting password",
+  "MeetTime" : "Time to join, in 24-hour format",
+  "LeaveTime" : "Time to kill zoom, also in 24- hour format"
+}

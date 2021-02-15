@@ -7,21 +7,9 @@ An Automation script to *automatically* very quickly join a zoom call
 
 This script requires your computer to be on and able to execute commands
 
+As of right now, you have to run the script 3 times if you want to automate the joining of 3 different classes.
+
 [Download Zoom](https://zoom.us/download#client_4meeting)
-# Setting up zoom
-#### Audio settings
-
-<img src = "configurations/Audio.png" width = "600">
-
-#### Video settings
-
-<img src = "configurations/Video.png" width = "600">
-
-#### General settings
-
-<img src = "configurations/General.png" width = "600">
-
-#### Please note that these settings work however there are other combinations that work, this is just an example.
 
 ## Python Requirements:
 + Link to visit [Python Homepage](https://www.python.org)
@@ -70,3 +58,18 @@ Create an [issue here](https://github.com/vippeople22/zoom-quick-join/issues) an
 
 Or make a [pull request](https://github.com/vippeople22/zoom-quick-join/pulls) and I'll update the code
 
+
+# Setting up zoom
+#### Audio settings
+
+<img src = "configurations/Audio.png" width = "600">
+
+#### Video settings
+
+<img src = "configurations/Video.png" width = "600">
+
+#### General settings
+
+<img src = "configurations/General.png" width = "600">
+
+#### Please note that these settings work however there are other combinations that work, this is just an example.

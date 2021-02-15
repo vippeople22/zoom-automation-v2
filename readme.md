@@ -43,7 +43,7 @@ pip install -r requirements.txt
 - [ ] Better code with fewer dependencies
 - [ ] Automation to create a task in the Task Scheduler for running the Script
 - [ ] A way for this to run in the background
-- [ ] Multiple class support
+- [x] Multiple class support
 
 #### Have fun, 
 Leave a star * if this helped you out in any way

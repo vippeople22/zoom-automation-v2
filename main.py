@@ -7,11 +7,9 @@ import pyautogui
 import schedule
 import time
 import os
-import cv2
 import json
 import colorama
 from colorama import Fore, Style
-
 
 
 hashes = '#' * 90
@@ -21,17 +19,33 @@ print('Check out his project https://github.com/prashanth-up/Zoom-Automation')
 print('and mine :) https://github.com/vippeople22/zoom-quick-join')
 print('But, I wanted a couple more features that he did not offer and cloned it and made my own!')
 print(Fore.YELLOW + 'Please consider setting up the Class1.json file with your details to make setup easier :)')
+print('Update! Now supports up to 3 classes.')
 print(Fore.RED + 'Modify the main.py sleep values to better suit your systems performance')
 time.sleep(0.1)
 
 # Check if user wants to load a json file with their meet details or input manually
 
-foo = input(Fore.MAGENTA + 'Load values from Class1.json? (y/n): ')
+foo = input(Fore.MAGENTA + 'Load values from preexisting json files? (y/n): ')
 print(Style.RESET_ALL)
 if foo == 'y':
-    print("load init")
-    with open("Class1.json") as f:
-        config = json.load(f)
+    bar = input('Load from class1, class2, or class3.json? (1/2/3)')
+    if bar == '1':
+        with open("Class1.json") as c1:
+            config = json.load(c1)
+        MeetingID = config["MeetingID"]
+        Password = config["Password"]
+        MeetTime = config["MeetTime"]
+        LeaveTime = config["LeaveTime"]
+    elif bar == '2':
+        with open("Class2.json") as c2:
+            config = json.load(c2)
+        MeetingID = config["MeetingID"]
+        Password = config["Password"]
+        MeetTime = config["MeetTime"]
+        LeaveTime = config["LeaveTime"]
+    elif bar == '3':
+        with open("Class3.json") as c3:
+            config = json.load(c3)
         MeetingID = config["MeetingID"]
         Password = config["Password"]
         MeetTime = config["MeetTime"]

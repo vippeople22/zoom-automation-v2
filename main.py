@@ -16,16 +16,14 @@ hashes = '#' * 90
 os.system('cls')
 print('Welcome to the automatic zoom join thing, this project is originally from Prashanth on Github')
 print('Check out his project https://github.com/prashanth-up/Zoom-Automation')
-print('and mine :) https://github.com/vippeople22/zoom-quick-join')
-print('But, I wanted a couple more features that he did not offer and cloned it and made my own!')
-print(Fore.YELLOW + 'Please consider setting up the Class1.json file with your details to make setup easier :)')
-print('Update! Now supports up to 3 classes.')
-print(Fore.RED + 'Modify the main.py sleep values to better suit your systems performance')
-time.sleep(0.1)
+print('and mine :) https://github.com/vippeople22/zoom-automation-v2')
+print(Fore.YELLOW + 'Consider setting up the json files with your class details to quickly join')
+print(Fore.CYAN + 'Update! Now supports up to 3 classes.')
+print(Fore.RED + 'Modify the main.py time.sleep values to better suit your systems performance')
 
 # Check if user wants to load a json file with their meet details or input manually
 
-foo = input(Fore.MAGENTA + 'Load values from preexisting json files? (y/n): ')
+foo = input(Fore.LIGHTRED_EX + 'Load values from preexisting json files? (y/n): ')
 print(Style.RESET_ALL)
 if foo == 'y':
     bar = input('Load from class1, class2, or class3.json? (1/2/3)')
@@ -36,6 +34,7 @@ if foo == 'y':
         Password = config["Password"]
         MeetTime = config["MeetTime"]
         LeaveTime = config["LeaveTime"]
+        print('Loaded 1st file')
     elif bar == '2':
         with open("Class2.json") as c2:
             config = json.load(c2)
@@ -43,6 +42,7 @@ if foo == 'y':
         Password = config["Password"]
         MeetTime = config["MeetTime"]
         LeaveTime = config["LeaveTime"]
+        print('Loaded 2nd file')
     elif bar == '3':
         with open("Class3.json") as c3:
             config = json.load(c3)
@@ -50,6 +50,7 @@ if foo == 'y':
         Password = config["Password"]
         MeetTime = config["MeetTime"]
         LeaveTime = config["LeaveTime"]
+        print('Loaded 3rd file')
 elif foo == 'n':
     # get values
     print('\n\n' + hashes)

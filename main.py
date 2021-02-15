@@ -29,27 +29,27 @@ if foo == 'y':
     bar = input('Load from class1, class2, or class3.json? (1/2/3)')
     if bar == '1':
         with open("Class1.json") as c1:
-            config = json.load(c1)
-        MeetingID = config["MeetingID"]
-        Password = config["Password"]
-        MeetTime = config["MeetTime"]
-        LeaveTime = config["LeaveTime"]
+            class1l = json.load(c1)
+        MeetingID = class1l["MeetingID"]
+        Password = class1l["Password"]
+        MeetTime = class1l["MeetTime"]
+        LeaveTime = class1l["LeaveTime"]
         print('Loaded 1st file')
     elif bar == '2':
         with open("Class2.json") as c2:
-            config = json.load(c2)
-        MeetingID = config["MeetingID"]
-        Password = config["Password"]
-        MeetTime = config["MeetTime"]
-        LeaveTime = config["LeaveTime"]
+            class2l = json.load(c2)
+        MeetingID = class2l["MeetingID"]
+        Password = class2l["Password"]
+        MeetTime = class2l["MeetTime"]
+        LeaveTime = class2l["LeaveTime"]
         print('Loaded 2nd file')
     elif bar == '3':
         with open("Class3.json") as c3:
-            config = json.load(c3)
-        MeetingID = config["MeetingID"]
-        Password = config["Password"]
-        MeetTime = config["MeetTime"]
-        LeaveTime = config["LeaveTime"]
+            class3l = json.load(c3)
+        MeetingID = class3l["MeetingID"]
+        Password = class3l["Password"]
+        MeetTime = class3l["MeetTime"]
+        LeaveTime = class3l["LeaveTime"]
         print('Loaded 3rd file')
 elif foo == 'n':
     # get values
@@ -66,12 +66,12 @@ elif foo == 'n':
 
 print(hashes)
 
-# just for confirmation
 MeetTime = str(MeetTime)
-print(f'Meeting ID: {MeetingID}')
-print(f'Password to be entered: {Password}')
 
-# Where the Magic happens function
+print(f'Meeting ID: {MeetingID}')
+print(f'Meeting password: {Password}')
+print(f'MeetTime (24h): {MeetTime}')
+print(f'LeaveTime (24h): {LeaveTime}')
 
 
 def zoom():
@@ -113,6 +113,5 @@ print("killing zoom at ", LeaveTime)
 
 while True:
 
-    # Check whether a scheduled task is pending to run or not
     schedule.run_pending()
     time.sleep(1)

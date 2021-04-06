@@ -1,3 +1,5 @@
+i rewrote the entire thing in batch because it was way easier, and i can automate it with the event scheduler: https://github.com/vippeople22/zoom-evsch
+
 # Zoom quick join
 ![GitHub issues](https://img.shields.io/github/issues-raw/vippeople22/zoom-automation-v2)
 ![GitHub release (latest by date)](https://img.shields.io/github/downloads/vippeople22/zoom-automation-v2/total)
